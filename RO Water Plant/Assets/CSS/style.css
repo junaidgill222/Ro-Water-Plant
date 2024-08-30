@@ -1,15 +1,17 @@
 .navbar{
-  background-color: darkblue;
+  background-color: rgba(0, 0, 255, 0.5);
   overflow: hidden;
-  border:1px solid darkblue;
-  border-radius: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .navbar a{
   background-color: white;
   color: black;
   float: left;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
+  font-size: 15px;
   }
 .navbar a:hover{
   background-color: deepskyblue;
@@ -20,26 +22,31 @@
   color: floralwhite;
 }
 .navbar img{
+  
   float: right;
-  border-radius: 1px solid white;
+  border: 2px solid darkblue;
+  border-radius: 40px;
+  margin-right: 20px;
+  margin-top: 5px;
 }
 body{
   background-color: lightskyblue;
+  text-align: center;
 }
 h2{
   text-align: center;
   background-color: black;
   color: floralwhite;
-  border-radius: 50px;
-  margin-left: 450px;
-  margin-right: 450px;
+  margin-top: 100px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 40px;
+  width: 100%;
 }
 .prf{
   border: 2px solid snow;
   border-radius: 20px;
-  margin-left: 65px;
+  width: 100%;
+  
 }
 p{
   background-color: whitesmoke;
@@ -53,14 +60,21 @@ table,tr,td{
   border: 2px solid black;
   font-size: 30px;
   padding: 8px;
-  margin-left: 400px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 80px;
   margin-bottom: 100px;
-  font-family: Georgia, 'Times New Roman', Times, serif}
-  .prff{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: aliceblue;
+}
+table{
+  box-shadow: 6px 6px;
+}
+.prff{
 border: 2px solid rgb(35, 7, 197);
 border-radius: 20px;
-margin-left: 200Px;
+width: 75%;
+
   }
 footer{
   background-color: darkblue;
@@ -73,23 +87,23 @@ footer{
   color: floralwhite;
 }
 .prrf{
-  border: 1px solid black;
+  border: 3px solid black;
   border-radius: 10px;
-  margin-left: 550px;
   margin-top: 100px;
+  box-shadow: white 3px 3px;
 }
 .c1{
   border: 1px solid snow;
   border-radius: 20px;
   margin-top: 10;
-  margin-left: 350px;
-  margin-right: 50px;
+  
+  
 }
 .c2{
 border: 1px solid snow;
 border-radius: 20px;
-margin-top: 10px
-padding-top 10px;
+margin-top: 10px;
+padding-top: 10px;
 }
 .p1{
   background-color: navajowhite;
@@ -101,13 +115,13 @@ padding-top 10px;
 border: 1px solid snow;
 border-radius: 20px;
 margin-top: 10px;
-margin-left: 330px;
+
 }
 .c4{
 border: 1px solid snow;
 border-radius: 20px;
-margin-top: 10px
-padding-top 10px;
+margin-top: 10px;
+padding-top: 10px;
 }
 ul{
   font-size: 25px;
@@ -120,9 +134,7 @@ h1{
   text-align: center;
   background-color: navajowhite;
 }
-iframe{
-  margin-left: 180px;
-}
+
 .order{
   border: 5px solid darkblue;
   background-color: floralwhite;
@@ -138,7 +150,7 @@ iframe{
 .hmd{
 border: 5px solid darkblue;
 background-color: darkblue;
-margin-left: 600px;
+
 font-size: 20px;
 text-align: center;
 color: rgb(248, 248, 248);
@@ -150,24 +162,30 @@ padding: 10px;
   color: bisque;
 }
 .table2{
-  margin-left: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .sp{
-  border: 1px solid black;
+  border: 3px solid rgb(0, 0, 0);
   border-radius: 10px;
-  margin-left: 550px;
   margin-top: 100px;
+  box-shadow: white 3px 3px;
 }
 .table{
-  margin-left: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
+  box-shadow: 6px 6px;
 }
 .card{
   border: 3px solid blue;
   border-radius: 20px;
   background-color: white;
   box-shadow: 4px 6px;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 250px;
-  margin: auto;
+  margin-bottom: 100px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -211,7 +229,29 @@ h4{
   width: 25%;
   }
 video{
-  margin-left: 180px;
   border: 3px solid rgb(0, 0, 0);
   border-radius: 20px;
+}
+input[type=text] {
+  margin-top: 100px;
+  border: 2px solid black;
+  
+}
+input[type=text], select{
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
