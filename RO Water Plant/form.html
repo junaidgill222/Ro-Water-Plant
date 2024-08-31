@@ -1,34 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>www.mgdrops.com</title>
-  <link rel="icon" type="image/x-icon" href="Assets/IMAGES/Favicon/favicon-32x32.png">
-  <link rel="stylesheet" href="Assets/CSS/style.css">
-</head>
-<body>
-  <h2><b><ins>Contact Us</ins></b></h2>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="Assets/IMAGES/Favicon/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="Assets/CSS/style.css" />
+  </head>
+  <body>
+    <h2>
+      <b><ins>Contact Us</ins></b>
+    </h2>
     <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="product.html">Products</a>
-        <a href="blog.html">Blogs</a>
-        <a class="active" href="form.html">Contact Us</a>
-        <a href="about.html">About</a>
-        <img src="Assets/IMAGES/B9DB1546-EEAC-4DFB-8845-DFDE630C8DE7.jpeg" alt="Mg Logo" width="50" height="47">
-      </div>
-      <div class="frm">
-    <form id="do" action="https://formsubmit.co/junaidwork222@gmail.com" method="post">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="First Name" placeholder="First Name">
+      <a href="index.html">Home</a>
+      <a href="product.html">Products</a>
+      <a href="blog.html">Blogs</a>
+      <a class="active" href="form.html">Contact Us</a>
+      <a href="about.html">About</a>
+      <img
+        src="Assets/IMAGES/frm.jpeg"
+        alt="Mg Logo"
+        width="50"
+        height="47"
+      />
+    </div>
+    <div class="frm">
+      <form
+        id="do"
+        action="https://formsubmit.co/junaidwork222@gmail.com"
+        method="post"
+      >
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="First Name"
+          placeholder="First Name"
+        />
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="Last Name" placeholder="Last Name">
+        <input
+          type="text"
+          id="lname"
+          name="Last Name"
+          placeholder="Last Name"
+        />
         <button onclick="doit()" class="bt" type="submit">Submit</button>
-    </form></div>
+      </form>
+    </div>
     <script>
       function doit() {
         window.alert("Submitted");
       }
     </script>
-</body>
+  </body>
 </html>
